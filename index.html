@@ -82,6 +82,10 @@
         }
         .price {
             font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 1.3rem; color: #A85A41;
+            display: flex; flex-direction: column; align-items: flex-start;
+        }
+        .pix-text {
+            font-size: 0.65rem; font-weight: 600; font-family: 'Inter', sans-serif; color: #5A5A5A; margin-top: 4px; text-transform: none; letter-spacing: 0;
         }
         .cta-btn {
             background: #A85A41; color: #FFFFFF; text-decoration: none; padding: 10px 14px; border-radius: 8px; font-weight: 700; font-size: 0.75rem; box-shadow: 0 4px 10px rgba(168, 90, 65, 0.3); font-family: 'Inter', sans-serif; text-transform: uppercase; transition: background 0.2s;
@@ -123,7 +127,10 @@
             </div>
             
             <div class="price-cta-wrapper">
-                <div class="price">R$ 70,00</div>
+                <div class="price">
+                    R$ 70,00
+                    <span class="pix-text">Pix (CPF): 399.534.078-43</span>
+                </div>
                 <a href="https://forms.gle/H3xrwV3WzPEQWDkg9" target="_blank" class="cta-btn">Confirmar Presença</a>
             </div>
         </div>
